@@ -3,10 +3,12 @@
 ### Setup:
 
 1. Install **.NET Core 1.1** (*.NET Core 1.0.3 SDK - [Installer]()*)
-2. Restore nuget packages
-3. Specify MySQL connection string in `web.config`
-4. `Add-Migration` *{MigrationName}* in PM console, or dotnet ef migrations add *{MigrationName}* using Dotnet-CLI
-5. `Update-Database`, or *dotnet ef database update* using Dotnet-CLI
+2. Clone this [repo](https://github.com/abdmd/Openiddict-Aspnetcore-TokenAuth.git)
+3. Restore nuget packages
+4. Specify MySQL connection string in `web.config`
+5. `Add-Migration` *{MigrationName}* in PM console, or dotnet ef migrations add *{MigrationName}* using Dotnet-CLI
+6. `Update-Database`, or *dotnet ef database update* using Dotnet-CLI
+7. Run the server, use Postman, Fiddler, cURL or any tool to test endpoints.
 
 ### Test:
 
