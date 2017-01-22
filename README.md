@@ -2,7 +2,7 @@
 
 ### Setup:
 
-1. Install **.NET Core 1.1** (*.NET Core 1.0.3 SDK - [Installer]()*)
+1. Install **.NET Core 1.1** (*.NET Core 1.0.3 SDK - [Installer](https://www.microsoft.com/net/download/core)*) and MySQL 5.7.17 *[Installer](https://dev.mysql.com/downloads/installer/)*
 2. Clone this [repo](https://github.com/abdmd/Openiddict-Aspnetcore-TokenAuth.git)
 3. Restore nuget packages
 4. Specify MySQL connection string in `web.config`
