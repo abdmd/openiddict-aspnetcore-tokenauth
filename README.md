@@ -14,12 +14,12 @@
 
 1. Use the seeded *admin* user to validate tokens, check `ApplicationDbContext.cs`.
 
-2. Get Token: Send a POST request to `http://localhost:xxxx/connect/token`
+2. Get Token: Send a POST request to `http://localhost:xxxx/connect/token` with the following fields
    * grant_type=password
    * username=admin[at]test[.]com
    * password=Test1234%
 
-   You will receive the token in response from server.
+   You will receive a token in response from server.
 
 
 3. Access protected routes: Add `Authorization` field in the header of request and set value to `Bearer`  + token.
