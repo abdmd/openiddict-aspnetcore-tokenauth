@@ -7,7 +7,7 @@
 3. Restore nuget packages
 4. Specify MySQL connection string in `web.config`
 5. `Add-Migration` *{MigrationName}* in PM console, or dotnet ef migrations add *{MigrationName}* using Dotnet-CLI
-6. `Update-Database`, or *dotnet ef database update* using Dotnet-CLI
+6. `Update-Database`, or dotnet ef database update using Dotnet-CLI
 7. Run the server, use Postman, Fiddler, cURL or any tool to test endpoints.
 
 ### Test:
