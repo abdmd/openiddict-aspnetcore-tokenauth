@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
-    "AspNet.Security.OAuth.Validation": "1.0.0-alpha3-final",
-    "AspNet.Security.OpenIdConnect.Server": "1.0.0-beta7-final",
+    "AspNet.Security.OAuth.Validation": "1.0.0-alpha3-*",
+    "AspNet.Security.OpenIdConnect.Server": "1.0.0-beta7-*",
     "Microsoft.AspNetCore.Identity": "1.1.0",
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.0",
     "Microsoft.AspNetCore.Mvc": "1.1.0",
